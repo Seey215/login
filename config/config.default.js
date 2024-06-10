@@ -1,14 +1,12 @@
-/* eslint valid-jsdoc: "off" */
-
 module.exports = appInfo => {
   const config = (exports = {
     keys: appInfo.name + '_1715954266639_7366',
     middleware: [],
-    // security: {
-    //   csrf: {
-    //     enable: false,
-    //   },
-    // },
+    security: {
+      csrf: {
+        enable: true,
+      },
+    },
     // view: {
     //   defaultViewEngine: "nunjucks",
     //   mapping: {
