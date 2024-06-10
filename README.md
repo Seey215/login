@@ -1,5 +1,19 @@
 # login
 
+## TODO
+
+- [ ] http => https
+
+- [ ] 防御XSS（中间件识别参数）
+
+- [ ] 防御CSRF（egg配置、前端调整）
+
+- [ ] 防御暴力破解（Redis次数、IP锁定、MAC地址锁定）
+
+- [ ] 权限控制
+
+- [ ] SSO 单点登录
+
 ## QuickStart
 
 ### Development
@@ -8,13 +22,6 @@
 npm i
 npm run dev
 open http://localhost:7001/
-```
-
-### Deploy
-
-```bash
-npm start
-npm stop
 ```
 
 ### npm scripts
